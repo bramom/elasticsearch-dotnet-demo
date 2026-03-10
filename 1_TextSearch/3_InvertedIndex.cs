@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 
 var fileName = "../.data/The Adventures of Sherlock Holmes.txt";
+//var fileName = "../.data/bigtext.txt";
 
 var text = File.ReadAllText(fileName);
 

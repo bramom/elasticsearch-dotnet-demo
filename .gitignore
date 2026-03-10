@@ -181,7 +181,7 @@ AutoTest.Net/
 .sass-cache/
 
 # test data
-.data
+.data/
 
 # Installshield output folder
 [Ee]xpress/
