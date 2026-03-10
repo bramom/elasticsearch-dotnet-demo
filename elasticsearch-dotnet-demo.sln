@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_challenge", "1_challenge", "{D844C225-2301-914B-85D1-331CF2FC1812}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextSearchDemo", "1_challenge\TextSearchDemo\TextSearchDemo.csproj", "{B868A739-9F26-3906-D5A1-B48DFEC8E0EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B868A739-9F26-3906-D5A1-B48DFEC8E0EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B868A739-9F26-3906-D5A1-B48DFEC8E0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B868A739-9F26-3906-D5A1-B48DFEC8E0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B868A739-9F26-3906-D5A1-B48DFEC8E0EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B868A739-9F26-3906-D5A1-B48DFEC8E0EC} = {D844C225-2301-914B-85D1-331CF2FC1812}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AB195EC-B547-4243-9457-68FB04DF8D5F}
+	EndGlobalSection
+EndGlobal
