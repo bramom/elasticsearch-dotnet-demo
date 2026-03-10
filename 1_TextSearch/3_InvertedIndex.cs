@@ -1,8 +1,6 @@
 ﻿using System.Diagnostics;
 
 var fileName = "../.data/The Adventures of Sherlock Holmes.txt";
-var searchPattern = "world";
-
 
 var text = File.ReadAllText(fileName);
 
@@ -29,11 +27,10 @@ sw.Stop();
 
 Console.WriteLine($"Index build time: {sw.ElapsedMilliseconds} ms");
 
-sw.Restart();
-
-var results = index[searchPattern];
-
-sw.Stop();
-
-Console.WriteLine($"Index search time: {sw.ElapsedMilliseconds} ms / {sw.ElapsedTicks} ticks ");
-Console.WriteLine($"Found {results.Count} matches");
+// Inverted index
+Console.WriteLine();
+Console.WriteLine("Inverted index:");
+foreach (var kv in index.Take(5))
+{
+    Console.WriteLine($"\t{kv.Key} -> {string.Join(",", kv.Value.Take(5))}");
+}
