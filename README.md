@@ -1,7 +1,9 @@
 # Elasticsearch Demo
 
 ## Data
-https://www.kaggle.com/datasets/ukveteran/big-text?resource=download
+>.\download-data.ps1
+
+0_GenerateData>dotnet run --file .\txtfile.cs
 
 ## Challenge
 
