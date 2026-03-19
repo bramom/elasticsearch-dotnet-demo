@@ -25,6 +25,13 @@ http://localhost:5601/
 
 https://download.elastic.co/demos/kibana/gettingstarted/8.x/shakespeare.json
 
+Quering
+
+Discover: search, Top Values, Visualize
+
+Visualize library: Lens / Tags cloud / ...
+
+
 ### Introduction
 https://www.elastic.co/blog/a-practical-introduction-to-elasticsearch
 
