@@ -16,13 +16,23 @@ Searching through large volumes of data
 ElasticSearch uses the same idea, but in a distributed way and with more advanced tokenization.
 
 ## ElasticSearch
+
+### Introduction
+https://www.elastic.co/blog/a-practical-introduction-to-elasticsearch
+
 http://localhost:9200/
 
 >2_ElasticSearch\docker compose up -d
 >2_ElasticSearch\ElasticIndex
 >2_ElasticSearch\ElasticSearch\dotnet run -- document
 
-## Kibana
+## Logs
+3_Logs>dontet run
+
+An index has been created
+
+## Kibana & tools
+
 http://localhost:5601/
 
 https://download.elastic.co/demos/kibana/gettingstarted/8.x/shakespeare.json
@@ -33,10 +43,7 @@ Discover: search, Top Values, Visualize
 
 Visualize library: Lens / Tags cloud / ...
 
-
-### Introduction
-https://www.elastic.co/blog/a-practical-introduction-to-elasticsearch
-
-
-## Plugin
+### Plugin
 https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-mysql-client2
+
+### .http
