@@ -16,6 +16,7 @@ ElasticSearch uses the same idea, but in a distributed way and with more advance
 ## ElasticSearch
 http://localhost:9200/
 
+>2_ElasticSearch\docker compose up -d
 >2_ElasticSearch\ElasticIndex
 >2_ElasticSearch\ElasticSearch\dotnet run -- document
 

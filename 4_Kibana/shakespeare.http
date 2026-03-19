@@ -1,0 +1,25 @@
+###
+POST http://localhost:9200/_sql?format=txt
+Content-Type: application/json
+
+{
+  "query": "SELECT speaker, COUNT(*) AS line_count FROM shakespeare WHERE text_entry LIKE '%love%' GROUP BY speaker ORDER BY line_count DESC LIMIT 10"
+}
+
+###
+POST http://localhost:9200/_sql?format=txt
+Content-Type: application/json
+
+{
+  "query": "SELECT speaker, COUNT(*) AS line_count FROM shakespeare WHERE text_entry LIKE '%love%' GROUP BY speaker 
+  ORDER BY line_count DESC LIMIT 10"
+}
+
+###
+
+POST http://localhost:9200/_sql/translate
+Content-Type: application/json
+
+{
+  "query": "SELECT speaker, COUNT(*) AS line_count FROM shakespeare WHERE text_entry LIKE '%love%' GROUP BY speaker ORDER BY line_count DESC LIMIT 10"
+}
