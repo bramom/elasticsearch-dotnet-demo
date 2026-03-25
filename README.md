@@ -1,9 +1,9 @@
 # Elasticsearch Demo
 
 ## Data
+>cd 0_GenerateData
 >.\download-data.ps1
-
-0_GenerateData>dotnet run --file .\txtfile.cs
+>dotnet run --file .\txtfile.cs
 
 ## Challenge
 
